@@ -29,6 +29,7 @@ gem 'spring',        group: :development
 gem 'devise'
 
 gem 'omniauth-facebook'
+gem 'rails_12factor', group: :production
 
 group :test do
   gem 'rspec-collection_matchers'
