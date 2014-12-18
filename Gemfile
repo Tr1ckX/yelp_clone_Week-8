@@ -30,6 +30,8 @@ gem 'devise'
 
 gem 'omniauth-facebook'
 gem 'rails_12factor', group: :production
+gem 'poltergeist'
+gem 'database_cleaner'
 
 group :test do
   gem 'rspec-collection_matchers'
