@@ -81,5 +81,5 @@ test:
 production:
   <<: *default
   database: yelp_clone_production
-  username: yelp_clone
-  password: <%= ENV['YELP_CLONE_DATABASE_PASSWORD'] %>
+  # username: yelp_clone
+  # password: <%= ENV['YELP_CLONE_DATABASE_PASSWORD'] %>
