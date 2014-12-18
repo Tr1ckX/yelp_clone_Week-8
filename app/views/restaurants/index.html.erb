@@ -10,11 +10,11 @@
     <h3>Reviews for <%= restaurant.name %></h3>
 
     <% if restaurant.reviews.any? %>
+      <h3>Average rating: <%= star_rating(restaurant.average_rating) %></h3>
       <ul>
-        <li>
-          <% restaurant.reviews.each do |review| %>
+        <% restaurant.reviews.each do |review| %>
+          <li>
 
-            <h3>Average rating: <%= star_rating(restaurant.average_rating) %></h3>
             <% if current_user && review.user.id == current_user.id %>
 
             <% elsif current_user && review.user.id != current_user.id %>
@@ -23,8 +23,8 @@
 
             <%= review.thoughts %>, <strong><%= review.rating %></strong>/5
 
-          <% end %>
-        </li>
+          </li>
+        <% end %>
       </ul>
     <% else %>
       <p>No reviews.</p>
