@@ -3,7 +3,7 @@ require 'rails_helper'
 feature 'restaurants' do
 
   context 'no restaurants have been added' do
-    
+
   before do
     visit('/')
     click_link('Sign up')
