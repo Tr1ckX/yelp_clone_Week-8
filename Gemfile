@@ -32,6 +32,8 @@ gem 'omniauth-facebook'
 gem 'rails_12factor', group: :production
 gem 'poltergeist'
 gem 'database_cleaner'
+gem 'paperclip'
+gem 'aws-sdk'
 
 group :test do
   gem 'rspec-collection_matchers'
