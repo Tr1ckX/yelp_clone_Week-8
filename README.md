@@ -9,4 +9,19 @@ Yelp clone
 </div>
 <br>
 
-<h5> Eighth week at [Makers Academy](http://www.makersacademy.com) 
+<h5> Eighth week at [Makers Academy](http://www.makersacademy.com)
+
+Deep water with Ruby on Rails and Amazon Web Services.
+
+  - The rails controllers, assets and models
+  - user registration with devise gem
+  - omniauth for secondary login option (facebook)
+  - Javascript for instant review endorsment
+  - File handling with Paperclip gem
+  - API access info stored via secrets
+  - TDD with Capybara
+  - file upload and storage on AWS
+  - published on heroku
+
+
+
