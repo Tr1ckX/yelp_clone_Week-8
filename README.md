@@ -9,4 +9,4 @@ Yelp clone
 </div>
 <br>
 
-<h5> Eigth week at [Makers Academy](http://www.makersacademy.com) 
+<h5> Eighth week at [Makers Academy](http://www.makersacademy.com) 
